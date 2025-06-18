@@ -25,7 +25,7 @@ int main() {
 
   std::vector<minipyelisp::lexer::Token> tokens = lexer.tokenize();
 
-  // to debug
+  // TODO: no need to debug we use gtest to unit test
   for (const auto &token : tokens) {
     std::cout << token.to_string() << std::endl;
   }
